@@ -1,0 +1,111 @@
+:root { /* variavél das cores */
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+* {
+    margin: 0; /* limite da borda */
+    padding: 0; /* limite da pagina */
+    box-sizing: border-box; /* limite da caixa */
+
+}
+
+body{
+    background-color: var(--preta);
+    font-family: 'Arial', 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+
+header .container{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+
+}
+
+header .logo{
+    margin: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    
+}
+
+header nav a{ /* configurando todos os links dentro do header */
+    text-decoration: none; /* tirar a decora link */
+    color: #AAA; 
+    margin-right: 10px;
+    
+}
+
+header nav a:hover{ /* Muda de cor quando o mouse passa por cima do link */
+color: #fff;
+
+}
+
+
+ .filme-principal
+{
+    
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%)/* realiza o degrade da imagem */, url('C:/Projeto-NetFlix/imagem/elite.jpg');
+    height: 400px;
+    background-size: cover; /* a imagem ocupa todo o fundo - limitei pelo heigth a altura */
+    
+
+}
+ .descricao
+{
+    margin-bottom: 20px;
+    width: 80%; /* largura da descrição a tela */
+    text-align: justify; /* tipo de formaração do texto */
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+.link
+{
+    text-decoration: none; /* tirar a decora link */
+    color: white; 
+}
+
+.titulo
+{
+    font-size: 40px;
+    font-family: "Times New Roman";
+    margin-left: 20px;
+    
+}
+
+.botao
+{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+    padding: 15px 30px; /* margem da transparencia do botao */
+    margin-right: 15px; 
+    font-size: 12px;
+
+    cursor: pointer; /* aparecer o cursos do mouse */
+    transition: 1s; /* aumenta o tempo para transição de cor, ao passar o mouse */
+}
+
+.botao:hover
+{
+    background-color: white;
+    color: black;
+}
+.botao i
+{
+    margin-right: 8px; /* dar espaço do icone no botão */
+}
+
+.carrosel-filmes
+{
+   margin-top: 8%; 
+   cursor: pointer;
+   transition: 1s;
+}
+
+
