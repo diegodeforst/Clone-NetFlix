@@ -87,7 +87,7 @@ color: #fff;
     margin-right: 15px; 
     font-size: 12px;
 
-    cursor: pointer; /* aparecer o cursos do mouse */
+    cursor: pointer; /* aparecer o cursor do mouse */
     transition: 1s; /* aumenta o tempo para transição de cor, ao passar o mouse */
 }
 
